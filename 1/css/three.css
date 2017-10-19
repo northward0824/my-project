@@ -1,0 +1,121 @@
+/*
+* @Author: 张秀荣
+* @Date:   2017-10-16 18:11:46
+* @Last Modified by:   张秀荣
+* @Last Modified time: 2017-10-18 00:10:00
+*/
+@import url(base.css);
+
+.banner .imgk{
+	width: 100%;
+	height: 500px;
+}
+.center{
+	width: 100%;
+	height: auto;
+	position: relative;
+}
+.center .item{
+	width: 1350px;
+	height: 680px;
+	background: black;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	transform: scale(0, 0);
+	z-index: 2;
+}
+.center .none{
+	transform: scale(1, 1);
+}
+.center .item>img{
+	width: auto;
+	height: 80%;
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	
+}
+.center>ul>li>img{
+	width: 900px;
+	height: auto;
+	position: absolute;
+}
+.center li>div{
+	width: 320px;
+	height: auto;
+	background: white;
+	color: black;
+	font-size: 14px;
+	font-weight: lighter;
+	line-height: 40px;
+	text-align: center;
+	position: absolute;
+	padding: 30px 30px;
+}
+.center>ul>li:first-child>img{
+	margin-top: 130px;
+}
+.center>ul>li:nth-child(2) div{
+	top: 506px;
+	left: 700px;
+}
+
+.center>ul>li:nth-child(3)>img{
+	width: 900px;
+	top: 900px;
+	right: 0;
+}
+.center>ul>li:nth-child(4)>img{
+	width: 700px;
+	top: 1442px;
+	left: 449px;
+}
+.center>ul>li:nth-child(5) div{
+	width: 530px;
+	height: 470px;
+	top: 1200px;
+	left: 150px;
+	padding: 30px 50px;
+}
+.center>ul>li:nth-child(6) img{
+	width: 700px;
+	top: 2070px;
+	left: 0px;
+}
+.center li:nth-child(7) div{
+	width: 530px;
+	height: 470px;
+	top: 2070px;
+	left: 670px;
+	padding: 30px 50px;
+}
+
+.small{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background: #272822;
+	height: 150px;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.small li{
+	width: 200px;
+	height: 100px;
+	background: black;
+}
+.item .small img{
+	width: 100%;
+	height: 100%;
+	/* display: block; */
+}
